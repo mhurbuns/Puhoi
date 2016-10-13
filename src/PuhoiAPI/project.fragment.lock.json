@@ -1,0 +1,93 @@
+{
+  "version": 2,
+  "exports": {
+    "Puhoi.Business/1.0.0": {
+      "type": "project",
+      "framework": ".NETFramework,Version=v4.6.1",
+      "compile": {
+        "bin/Debug/Puhoi.Business.dll": {}
+      },
+      "runtime": {
+        "../packages/AutoMapper.4.2.1/lib/net45/AutoMapper.dll": {},
+        "bin/Debug/Puhoi.Business.dll": {}
+      },
+      "contentFiles": {
+        "bin/Debug/Puhoi.Business.pdb": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true
+        }
+      }
+    },
+    "Puhoi.Common/1.0.0": {
+      "type": "project",
+      "framework": ".NETFramework,Version=v4.6.1",
+      "compile": {
+        "bin/Debug/Puhoi.Common.dll": {}
+      },
+      "runtime": {
+        "../packages/FluentValidation.6.2.1.0/lib/Net45/FluentValidation.dll": {},
+        "bin/Debug/Puhoi.Common.dll": {}
+      },
+      "contentFiles": {
+        "bin/Debug/Puhoi.Common.pdb": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true
+        }
+      }
+    },
+    "Puhoi.DataModels/1.0.0": {
+      "type": "project",
+      "framework": ".NETFramework,Version=v4.6.1",
+      "compile": {
+        "bin/Debug/Puhoi.DataModels.dll": {}
+      },
+      "runtime": {
+        "bin/Debug/Puhoi.DataModels.dll": {}
+      },
+      "contentFiles": {
+        "bin/Debug/Puhoi.DataModels.pdb": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true
+        }
+      }
+    },
+    "Puhoi.Data/1.0.0": {
+      "type": "project",
+      "framework": ".NETFramework,Version=v4.6.1",
+      "compile": {
+        "bin/Debug/Puhoi.Data.dll": {}
+      },
+      "runtime": {
+        "bin/Debug/Puhoi.Data.dll": {}
+      },
+      "contentFiles": {
+        "bin/Debug/Puhoi.Data.pdb": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true
+        }
+      }
+    },
+    "Puhoi.Models/1.0.0": {
+      "type": "project",
+      "framework": ".NETFramework,Version=v4.6.1",
+      "compile": {
+        "bin/Debug/Puhoi.Models.dll": {}
+      },
+      "runtime": {
+        "../packages/FluentValidation.6.2.1.0/lib/Net45/FluentValidation.dll": {},
+        "bin/Debug/Puhoi.Models.dll": {}
+      },
+      "contentFiles": {
+        "bin/Debug/Puhoi.Models.pdb": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true
+        }
+      }
+    }
+  }
+}
