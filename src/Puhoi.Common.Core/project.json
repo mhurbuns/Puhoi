@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0-*",
+
+  "dependencies": {
+    "FluentValidation.AspNetCore": "6.4.0-beta9",
+    "Microsoft.AspNetCore.Mvc.DataAnnotations": "1.1.0",
+    "NETStandard.Library": "1.6.0"
+
+  },
+
+  "frameworks": {
+    "netstandard1.6": {   
+      "imports": "dnxcore50"
+    }
+  }
+}

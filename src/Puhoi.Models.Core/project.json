@@ -1,0 +1,17 @@
+﻿{
+  "version": "1.0.0-*",
+
+  "dependencies": {
+    "FluentValidation.AspNetCore": "6.4.0-beta9",
+    "Puhoi.Common.Core": "1.0.0-*",
+    "NETStandard.Library": "1.6.0",
+    "Microsoft.AspNetCore.Mvc.DataAnnotations": "1.1.0",
+    "FluentAssertions.AspNetCore.Mvc": "0.7.0-beta1"
+  },
+
+  "frameworks": {
+    "netstandard1.6": {
+      "imports": "dnxcore50"
+    }
+  }
+}
