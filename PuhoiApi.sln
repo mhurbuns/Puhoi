@@ -26,13 +26,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Puhoi.Models.Tests", "Puhoi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PuhoiAPI.Tests", "PuhoiAPI.Tests\PuhoiAPI.Tests.csproj", "{9C951B6C-81D6-4240-833B-A51BC36C8535}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Puhoi.Models.xUnit.Tests", "src\PuhoiAPI.xUnit.Tests\Puhoi.Models.xUnit.Tests.xproj", "{1F6D8882-A0A0-49DF-A406-627466C4BEFA}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Puhoi.Models.xUnit.Tests", "src\Puhoi.Models.xUnit.Tests\Puhoi.Models.xUnit.Tests.xproj", "{1F6D8882-A0A0-49DF-A406-627466C4BEFA}"
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Puhoi.Models.Core", "src\Puhoi.Models.Core\Puhoi.Models.Core.xproj", "{42047007-B053-42ED-A862-959CA5C75485}"
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Puhoi.Common.Core", "src\Puhoi.Common.Core\Puhoi.Common.Core.xproj", "{F2D3F457-203C-404D-A481-4E51B9902AE1}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "PuhoiAPI.xUnit.Tests", "src\ClassLibrary2\PuhoiAPI.xUnit.Tests.xproj", "{1A8E0E63-9BFA-4E45-B430-D5D5B612C2D5}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "PuhoiAPI.xUnit.Tests", "src\PuhoiAPI.xUnit.Tests\PuhoiAPI.xUnit.Tests.xproj", "{1A8E0E63-9BFA-4E45-B430-D5D5B612C2D5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
