@@ -96,11 +96,20 @@ namespace PuhoiAPI.xUnit.Tests
                 HttpContent httpContent = SerializeModelToHttpContent(storeModel);
 
                 //act 
-                HttpResponseMessage response = await client.PostAsync("stores", httpContent);
+                try
+                {
+                    HttpResponseMessage response = await client.PostAsync("stores", httpContent);
 
-                // assert
-                Assert.NotNull(response);
-                Assert.Equal(response.StatusCode, HttpStatusCode.Created);
+                    // assert
+                    Assert.NotNull(response);
+                    Assert.Equal(response.StatusCode, HttpStatusCode.Created);
+
+                }
+                catch (Exception ex)
+                {
+
+                    throw;
+                }
                 await DeleteStore(client,storeModel.Id);
             }
         }

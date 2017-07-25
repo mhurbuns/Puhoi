@@ -6,7 +6,7 @@ namespace PuhoiAPI
 {
     public class AutoMapperProfileConfiguration : Profile
     {
-        protected override void Configure()
+        public AutoMapperProfileConfiguration()
         {
             CreateMap<StoreDto, StoreModel>().
                 ForSourceMember("StoreId", s => s.Ignore()).
@@ -15,10 +15,9 @@ namespace PuhoiAPI
                 AfterMap((dto, model) => model.Id = dto.UId);
 
             CreateMap<StoreModel, StoreDto>()
-                //ForMember("UId", s => s.Ignore()).
                 .AfterMap((model, dto) => dto.UId = model.Id);
+
         }
-
-
+       
     }
 }
